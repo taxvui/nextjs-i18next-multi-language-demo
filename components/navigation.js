@@ -15,12 +15,12 @@ export default function Navigation() {
     document.querySelector("html").setAttribute("dir", dir);
     document.querySelector("html").setAttribute("lang", lang);
   }, [router.locale]);
-
+  
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link href="/">
-          <a className="navbar-brand">Next.js Multi-Language</a>
+          <a className="navbar-brand">LOGO</a>
         </Link>
         <div className="navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
