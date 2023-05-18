@@ -434,85 +434,9 @@ export default function Navigation() {
                             <path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" stroke="#323338" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M7.831 18.737C6.613 16.95 5.8 13.707 5.8 10c0-3.706.813-6.951 2.031-8.737M1 10h18M2.386 14.8h15.229M2.386 5.2h15.229M12.169 1.263C13.386 3.05 14.2 6.293 14.2 10c0 3.706-.813 6.951-2.031 8.737" stroke="#323338" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
-                          <div className="jsx-3454926987 language-label">English</div>
-                          <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="arrow-down-icon">
-                            <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
-                          </svg>
+                          <LocaleSwitcher />
                         </div>
-                        <div className="jsx-3454926987 language-picker-dialog-component-wrapper top left">
-                          <div style={{height: '208px', width: '344px'}} role="listbox" className="jsx-2157806734 language-picker-dialog-component">
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="true" className="jsx-2921979010 language-picker-item-component language-selected">
-                                <div className="jsx-2921979010 language-picker-item-label">English</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Español</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Français</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Deutsch</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Português</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Nederlands</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Italiano</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Pусский</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">日本語</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">한국어</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Türkçe</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Svenska</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">Polski</div>
-                              </div>
-                            </div>
-                            <div className="language-picker-item-component-wrapper">
-                              <div tabIndex={0} role="option" aria-selected="false" className="jsx-2921979010 language-picker-item-component">
-                                <div className="jsx-2921979010 language-picker-item-label">繁體中文</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
