@@ -35,7 +35,7 @@ export default function Navigation() {
                     <div className="jsx-2008225623 left-side-header-links">
                       <div role="list" className="jsx-2008225623 absolute-main-links">
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Products</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -44,7 +44,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Teams</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -53,7 +53,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Platform</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -62,7 +62,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Resources</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
