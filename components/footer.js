@@ -183,7 +183,7 @@ export default function Navigation() {
                     <div className="jsx-3477892871 footer-bottom-bar-left-side">
                       <div className="jsx-3477892871 language-picker-and-security-logos-wrapper">
                         <div className="jsx-3477892871 language-picker-wrapper">
-                          <div tabIndex={0} aria-haspopup="true" aria-expanded="false" aria-label="choose language" role="combobox" className="jsx-3454926987 language-picker-component">
+                          <div tabIndex={0} aria-haspopup="true" aria-expanded="false" aria-label="choose language"  className="jsx-3454926987 language-picker-component">
                             <div className="jsx-3454926987 selected-language ignore-clickoutside">
                               <svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="earth-icon">
                                 <path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" stroke="#323338" strokeLinecap="round" strokeLinejoin="round" />
@@ -428,7 +428,7 @@ export default function Navigation() {
                       </div>
                     </div>
                     <div className="jsx-3368285728 language-picker-wrapper-component link-wrapper">
-                      <div tabIndex={0} aria-haspopup="true" aria-expanded="false" aria-label="choose language" role="combobox" className="jsx-3454926987 language-picker-component">
+                      <div tabIndex={0} aria-haspopup="true" aria-expanded="false" aria-label="choose language"  className="jsx-3454926987 language-picker-component">
                         <div className="jsx-3454926987 selected-language ignore-clickoutside">
                           <svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="earth-icon">
                             <path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" stroke="#323338" strokeLinecap="round" strokeLinejoin="round" />

@@ -121,7 +121,7 @@ export default function Navigation() {
                   </div>
                   <div className="jsx-2770025641 mobile-menu-right-section">
                     <div aria-label="Main menu" role="navigation" className="jsx-2770025641 mobile-header-content">
-                      <div tabIndex={0} aria-label="Open Menu" aria-haspopup="menu" aria-haspopup="false" role="button" className="jsx-2683879663 hamburger-menu   "><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /></div>
+                      <div tabIndex={0} aria-label="Open Menu" role="button" className="jsx-2683879663 hamburger-menu   "><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /></div>
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Navigation() {
             <div className="jsx-2770025641 header-menu-component-wrapper">
               <div className="jsx-1474266031 header-menu-mobile-component">
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Products" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Products" role="button" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Products</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -227,7 +227,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Use cases" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Use cases" role="button" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Use cases</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -251,7 +251,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Features" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Features" role="button" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Features</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -267,7 +267,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Resources" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Resources" role="button" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Resources</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
