@@ -141,7 +141,7 @@ export default function Navigation() {
                       <div className="section-wrapper">
                         <div className="section-link">Tailored to your teams' needs</div>
                         <div>
-                          <a className="header-link subsection-link" href="/work-management" target="_self">
+                          <Link className="header-link subsection-link" href="/work-management" target="_self">
                             <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 25 25" fill="none">
                               <path d="M15.436 2.592c0-1.421-1.097-2.573-2.45-2.573-1.354 0-2.45 1.152-2.45 2.573v2.829c0 1.421 1.096 2.574 2.45 2.574 1.353 0 2.45-1.153 2.45-2.574V2.592z" fill="url(#paint0_linear_1860_128182)" />
                               <path d="M5.846 6.202c-1.288-.44-2.67.3-3.089 1.65-.418 1.352.287 2.803 1.575 3.243l2.562.874c1.288.439 2.67-.3 3.09-1.651.417-1.352-.288-2.803-1.575-3.242l-2.563-.874z" fill="url(#paint1_linear_1860_128182)" />
@@ -175,7 +175,7 @@ export default function Navigation() {
                             </svg>
                             monday work management
                           </Link>
-                          <a className="header-link subsection-link" href="/crm" target="_self">
+                          <Link className="header-link subsection-link" href="/crm" target="_self">
                             <svg width={25} height={25} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M16.646 12.818a.563.563 0 0 1-.572.595H8.926a.563.563 0 0 0-.572.595 8.458 8.458 0 0 0 1.87 4.743 8.32 8.32 0 0 0 4.817 2.914 8.264 8.264 0 0 0 5.554-.832 8.385 8.385 0 0 0 3.77-4.2c.739-1.798.836-3.8.276-5.662a8.408 8.408 0 0 0-3.345-4.553 8.272 8.272 0 0 0-7.124-1.032 8.295 8.295 0 0 0-1.691.747 8.374 8.374 0 0 1 3.079 3.131l.002-.036.017.03a8.472 8.472 0 0 1 1.067 3.56z" fill="#00A0A0" />
                               <ellipse cx="8.333" cy="13.414" rx="8.333" ry="8.413" fill="#fff" />
@@ -194,7 +194,7 @@ export default function Navigation() {
                             </svg>
                             monday sales CRM
                           </Link>
-                          <a className="header-link subsection-link" href="/dev" target="_self">
+                          <Link className="header-link subsection-link" href="/dev" target="_self">
                             <svg width={25} height={25} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g clipPath="url(#clip0_1_22)">
                                 <path d="M13.319 8.717l-.045-5.75c-.488-.052-.976-.029-1.464.011-4.337.407-7.685 3.951-7.594 8.186.074 3.428 2.281 5.681 4.007 6.92 2.458 1.763 5.356 2.494 8.334 2.81 1.754.185 3.602.27 4.904.241l1.483-.03a.567.567 0 0 0 .451-.237l1.645-2.311a.565.565 0 0 0-.012-.673l-1.714-2.23a.567.567 0 0 0-.46-.22l-1.515.029c-.99.021-2.572-.045-4.119-.21-1.925-.203-3.833-.563-5.431-1.71-1.04-.746-1.622-1.57-1.642-2.506-.024-1.124.774-2.083 1.866-2.35a2.435 2.435 0 0 1 1.306.03z" fill="url(#paint0_linear_1_22)" />
@@ -221,7 +221,7 @@ export default function Navigation() {
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">More by monday.com</div>
-                        <div><a className="header-link subsection-link" href="https://workforms.monday.com" target="_blank">WorkForms</Link><a className="header-link subsection-link" href="//workcanvas.com" target="_blank">Canvas</Link></div>
+                        <div><Link className="header-link subsection-link" href="https://workforms.monday.com" target="_blank">WorkForms</Link><Link className="header-link subsection-link" href="//workcanvas.com" target="_blank">Canvas</Link></div>
                       </div>
                     </div>
                   </div>
@@ -237,15 +237,15 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">By team</div>
-                        <div><a className="header-link subsection-link" href="/work-management/marketing" target="_self">Marketing</Link><a className="header-link subsection-link" href="/dev" target="_self">Developers</Link><a className="header-link subsection-link" href="/operations" target="_self">Operations</Link><a className="header-link subsection-link" href="/use-cases/hr-management-software" target="_self">HR</Link><a className="header-link subsection-link" href="/crm" target="_self">Sales</Link><a className="header-link subsection-link" href="/project-management" target="_self">PMO</Link><a className="header-link subsection-link" href="/use-cases/it-operations" target="_self">IT</Link></div>
+                        <div><Link className="header-link subsection-link" href="/work-management/marketing" target="_self">Marketing</Link><Link className="header-link subsection-link" href="/dev" target="_self">Developers</Link><Link className="header-link subsection-link" href="/operations" target="_self">Operations</Link><Link className="header-link subsection-link" href="/use-cases/hr-management-software" target="_self">HR</Link><Link className="header-link subsection-link" href="/crm" target="_self">Sales</Link><Link className="header-link subsection-link" href="/project-management" target="_self">PMO</Link><Link className="header-link subsection-link" href="/use-cases/it-operations" target="_self">IT</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">By business size</div>
-                        <div><a className="header-link subsection-link" href="/enterprise" target="_self">Enterprise</Link><a className="header-link subsection-link" href="/smb" target="_self">Small business</Link><a className="header-link subsection-link" href="/nonprofits" target="_self">Nonprofit</Link></div>
+                        <div><Link className="header-link subsection-link" href="/enterprise" target="_self">Enterprise</Link><Link className="header-link subsection-link" href="/smb" target="_self">Small business</Link><Link className="header-link subsection-link" href="/nonprofits" target="_self">Nonprofit</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">By workflow</div>
-                        <div><a className="header-link subsection-link" href="/project-management" target="_self">Project management</Link><a className="header-link subsection-link" href="/use-cases/remote-work" target="_self">Remote work</Link><a className="header-link subsection-link" href="/inventory-tracking" target="_self">Inventory tracking</Link><a className="header-link subsection-link" href="/enterprise-agile" target="_self">Enterprise agility &amp; OKR</Link><a className="header-link subsection-link" href="/templates" target="_self">200+ workflows</Link></div>
+                        <div><Link className="header-link subsection-link" href="/project-management" target="_self">Project management</Link><Link className="header-link subsection-link" href="/use-cases/remote-work" target="_self">Remote work</Link><Link className="header-link subsection-link" href="/inventory-tracking" target="_self">Inventory tracking</Link><Link className="header-link subsection-link" href="/enterprise-agile" target="_self">Enterprise agility &amp; OKR</Link><Link className="header-link subsection-link" href="/templates" target="_self">200+ workflows</Link></div>
                       </div>
                     </div>
                   </div>
@@ -261,7 +261,7 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">Key features</div>
-                        <div><a className="header-link subsection-link" href="/features/dashboards" target="_self">Dashboards</Link><a className="header-link subsection-link" href="/integrations" target="_self">Integrations</Link><a className="header-link subsection-link" href="/features/automations" target="_self">Automations</Link><a className="header-link subsection-link" href="/features/gantt" target="_self">Gantt</Link><a className="header-link subsection-link" href="/features/kanban" target="_self">Kanban</Link><a className="header-link subsection-link" href="/workdocs" target="_self">Docs</Link><a className="header-link subsection-link" href="/features/files" target="_self">Files</Link><a className="header-link subsection-link" href="/features/forms" target="_self">Forms</Link></div>
+                        <div><Link className="header-link subsection-link" href="/features/dashboards" target="_self">Dashboards</Link><Link className="header-link subsection-link" href="/integrations" target="_self">Integrations</Link><Link className="header-link subsection-link" href="/features/automations" target="_self">Automations</Link><Link className="header-link subsection-link" href="/features/gantt" target="_self">Gantt</Link><Link className="header-link subsection-link" href="/features/kanban" target="_self">Kanban</Link><Link className="header-link subsection-link" href="/workdocs" target="_self">Docs</Link><Link className="header-link subsection-link" href="/features/files" target="_self">Files</Link><Link className="header-link subsection-link" href="/features/forms" target="_self">Forms</Link></div>
                       </div>
                     </div>
                   </div>
@@ -277,15 +277,15 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">Learn</div>
-                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">Help center</Link><a className="header-link subsection-link" href="/p/about/" target="_self">About us</Link><a className="header-link subsection-link" href="//monday.com/blog" target="_self">Blog</Link><a className="header-link subsection-link" href="/p/certificate/" target="_self">Certifications</Link></div>
+                        <div><Link className="header-link subsection-link" href="/helpcenter/" target="_self">Help center</Link><Link className="header-link subsection-link" href="/p/about/" target="_self">About us</Link><Link className="header-link subsection-link" href="//monday.com/blog" target="_self">Blog</Link><Link className="header-link subsection-link" href="/p/certificate/" target="_self">Certifications</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">Connect</div>
-                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">24/7 support</Link><a className="header-link subsection-link" href="/partnership" target="_self">Partners</Link><a className="header-link subsection-link" href="/p/events-hub/" target="_self">Global events</Link><a className="header-link subsection-link" href="//community.monday.com" target="_self">Community</Link></div>
+                        <div><Link className="header-link subsection-link" href="/helpcenter/" target="_self">24/7 support</Link><Link className="header-link subsection-link" href="/partnership" target="_self">Partners</Link><Link className="header-link subsection-link" href="/p/events-hub/" target="_self">Global events</Link><Link className="header-link subsection-link" href="//community.monday.com" target="_self">Community</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">Build</div>
-                        <div><a className="header-link subsection-link" href="/appdeveloper" target="_self">App development</Link><a className="header-link subsection-link" href="/templates" target="_self">Template center</Link></div>
+                        <div><Link className="header-link subsection-link" href="/appdeveloper" target="_self">App development</Link><Link className="header-link subsection-link" href="/templates" target="_self">Template center</Link></div>
                       </div>
                     </div>
                   </div>
