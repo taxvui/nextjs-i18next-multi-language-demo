@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 
-export default function Navigation() {
+export default function Footer() {
   const router = useRouter();
 
   const { t } = useTranslation("");
