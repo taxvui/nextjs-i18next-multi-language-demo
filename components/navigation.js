@@ -27,9 +27,9 @@ export default function Navigation() {
               <div className="jsx-2776966822 basic-header-content-wrapper">
                 <div className="jsx-2776966822 basic-header-content">
                   <div className="jsx-2776966822 main-logo-wrapper">
-                    <a href="/" target="_self">
+                    <Link href="/" target="_self">
                       <picture className="jsx-4212101279 picture-component"><img alt="monday.com logo" className="jsx-4212101279 base-header-monday-logo-image" src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png" /></picture>
-                    </a>
+                    </Link>
                   </div>
                   <nav aria-label="Main" className="jsx-2008225623 base-header-desktop-content">
                     <div className="jsx-2008225623 left-side-header-links">
@@ -73,9 +73,9 @@ export default function Navigation() {
                       </div>
                     </div>
                     <div className="jsx-2008225623 right-side-header-links">
-                      <div className="jsx-2008225623 link-item-component-wrapper"><a href="/pricing" tabIndex={0} className="jsx-2138693134 link-item-component">Pricing</a></div>
-                      <div className="link-item-component-wrapper" role="listitem"><a href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" tabIndex={0} className="jsx-2138693134 link-item-component">Contact sales</a></div>
-                      <div className="jsx-2008225623 link-item-component-wrapper"><a href="//auth.monday.com/login" tabIndex={0} className="jsx-2138693134 link-item-component">Log in</a></div>
+                      <div className="jsx-2008225623 link-item-component-wrapper"><Link href="/pricing" tabIndex={0} className="jsx-2138693134 link-item-component">Pricing</Link></div>
+                      <div className="link-item-component-wrapper" role="listitem"><Link href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" tabIndex={0} className="jsx-2138693134 link-item-component">Contact sales</Link></div>
+                      <div className="jsx-2008225623 link-item-component-wrapper"><Link href="//auth.monday.com/login" tabIndex={0} className="jsx-2138693134 link-item-component">Log in</Link></div>
                     </div>
                     <div className="jsx-2008225623 header-button-wrapper">
                       <div className="jsx-2396283946 button">
@@ -115,9 +115,9 @@ export default function Navigation() {
               <div className="jsx-2776966822 basic-header-content-wrapper">
                 <div className="jsx-2776966822 basic-header-content">
                   <div className="jsx-2776966822 main-logo-wrapper">
-                    <a href="/" target="_self">
+                    <Link href="/" target="_self">
                       <picture className="jsx-4212101279 picture-component"><img alt="monday.com logo" className="jsx-4212101279 base-header-monday-logo-image" src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png" /></picture>
-                    </a>
+                    </Link>
                   </div>
                   <div className="jsx-2770025641 mobile-menu-right-section">
                     <div aria-label="Main menu" role="navigation" className="jsx-2770025641 mobile-header-content">
@@ -174,7 +174,7 @@ export default function Navigation() {
                               </defs>
                             </svg>
                             monday work management
-                          </a>
+                          </Link>
                           <a className="header-link subsection-link" href="/crm" target="_self">
                             <svg width={25} height={25} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M16.646 12.818a.563.563 0 0 1-.572.595H8.926a.563.563 0 0 0-.572.595 8.458 8.458 0 0 0 1.87 4.743 8.32 8.32 0 0 0 4.817 2.914 8.264 8.264 0 0 0 5.554-.832 8.385 8.385 0 0 0 3.77-4.2c.739-1.798.836-3.8.276-5.662a8.408 8.408 0 0 0-3.345-4.553 8.272 8.272 0 0 0-7.124-1.032 8.295 8.295 0 0 0-1.691.747 8.374 8.374 0 0 1 3.079 3.131l.002-.036.017.03a8.472 8.472 0 0 1 1.067 3.56z" fill="#00A0A0" />
@@ -193,7 +193,7 @@ export default function Navigation() {
                               </defs>
                             </svg>
                             monday sales CRM
-                          </a>
+                          </Link>
                           <a className="header-link subsection-link" href="/dev" target="_self">
                             <svg width={25} height={25} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g clipPath="url(#clip0_1_22)">
@@ -216,12 +216,12 @@ export default function Navigation() {
                               </defs>
                             </svg>
                             monday dev
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">More by monday.com</div>
-                        <div><a className="header-link subsection-link" href="https://workforms.monday.com" target="_blank">WorkForms</a><a className="header-link subsection-link" href="//workcanvas.com" target="_blank">Canvas</a></div>
+                        <div><a className="header-link subsection-link" href="https://workforms.monday.com" target="_blank">WorkForms</Link><a className="header-link subsection-link" href="//workcanvas.com" target="_blank">Canvas</Link></div>
                       </div>
                     </div>
                   </div>
@@ -237,15 +237,15 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">By team</div>
-                        <div><a className="header-link subsection-link" href="/work-management/marketing" target="_self">Marketing</a><a className="header-link subsection-link" href="/dev" target="_self">Developers</a><a className="header-link subsection-link" href="/operations" target="_self">Operations</a><a className="header-link subsection-link" href="/use-cases/hr-management-software" target="_self">HR</a><a className="header-link subsection-link" href="/crm" target="_self">Sales</a><a className="header-link subsection-link" href="/project-management" target="_self">PMO</a><a className="header-link subsection-link" href="/use-cases/it-operations" target="_self">IT</a></div>
+                        <div><a className="header-link subsection-link" href="/work-management/marketing" target="_self">Marketing</Link><a className="header-link subsection-link" href="/dev" target="_self">Developers</Link><a className="header-link subsection-link" href="/operations" target="_self">Operations</Link><a className="header-link subsection-link" href="/use-cases/hr-management-software" target="_self">HR</Link><a className="header-link subsection-link" href="/crm" target="_self">Sales</Link><a className="header-link subsection-link" href="/project-management" target="_self">PMO</Link><a className="header-link subsection-link" href="/use-cases/it-operations" target="_self">IT</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">By business size</div>
-                        <div><a className="header-link subsection-link" href="/enterprise" target="_self">Enterprise</a><a className="header-link subsection-link" href="/smb" target="_self">Small business</a><a className="header-link subsection-link" href="/nonprofits" target="_self">Nonprofit</a></div>
+                        <div><a className="header-link subsection-link" href="/enterprise" target="_self">Enterprise</Link><a className="header-link subsection-link" href="/smb" target="_self">Small business</Link><a className="header-link subsection-link" href="/nonprofits" target="_self">Nonprofit</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">By workflow</div>
-                        <div><a className="header-link subsection-link" href="/project-management" target="_self">Project management</a><a className="header-link subsection-link" href="/use-cases/remote-work" target="_self">Remote work</a><a className="header-link subsection-link" href="/inventory-tracking" target="_self">Inventory tracking</a><a className="header-link subsection-link" href="/enterprise-agile" target="_self">Enterprise agility &amp; OKR</a><a className="header-link subsection-link" href="/templates" target="_self">200+ workflows</a></div>
+                        <div><a className="header-link subsection-link" href="/project-management" target="_self">Project management</Link><a className="header-link subsection-link" href="/use-cases/remote-work" target="_self">Remote work</Link><a className="header-link subsection-link" href="/inventory-tracking" target="_self">Inventory tracking</Link><a className="header-link subsection-link" href="/enterprise-agile" target="_self">Enterprise agility &amp; OKR</Link><a className="header-link subsection-link" href="/templates" target="_self">200+ workflows</Link></div>
                       </div>
                     </div>
                   </div>
@@ -261,7 +261,7 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">Key features</div>
-                        <div><a className="header-link subsection-link" href="/features/dashboards" target="_self">Dashboards</a><a className="header-link subsection-link" href="/integrations" target="_self">Integrations</a><a className="header-link subsection-link" href="/features/automations" target="_self">Automations</a><a className="header-link subsection-link" href="/features/gantt" target="_self">Gantt</a><a className="header-link subsection-link" href="/features/kanban" target="_self">Kanban</a><a className="header-link subsection-link" href="/workdocs" target="_self">Docs</a><a className="header-link subsection-link" href="/features/files" target="_self">Files</a><a className="header-link subsection-link" href="/features/forms" target="_self">Forms</a></div>
+                        <div><a className="header-link subsection-link" href="/features/dashboards" target="_self">Dashboards</Link><a className="header-link subsection-link" href="/integrations" target="_self">Integrations</Link><a className="header-link subsection-link" href="/features/automations" target="_self">Automations</Link><a className="header-link subsection-link" href="/features/gantt" target="_self">Gantt</Link><a className="header-link subsection-link" href="/features/kanban" target="_self">Kanban</Link><a className="header-link subsection-link" href="/workdocs" target="_self">Docs</Link><a className="header-link subsection-link" href="/features/files" target="_self">Files</Link><a className="header-link subsection-link" href="/features/forms" target="_self">Forms</Link></div>
                       </div>
                     </div>
                   </div>
@@ -277,20 +277,20 @@ export default function Navigation() {
                     <div className="jsx-393647336">
                       <div className="section-wrapper">
                         <div className="section-link">Learn</div>
-                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">Help center</a><a className="header-link subsection-link" href="/p/about/" target="_self">About us</a><a className="header-link subsection-link" href="//monday.com/blog" target="_self">Blog</a><a className="header-link subsection-link" href="/p/certificate/" target="_self">Certifications</a></div>
+                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">Help center</Link><a className="header-link subsection-link" href="/p/about/" target="_self">About us</Link><a className="header-link subsection-link" href="//monday.com/blog" target="_self">Blog</Link><a className="header-link subsection-link" href="/p/certificate/" target="_self">Certifications</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">Connect</div>
-                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">24/7 support</a><a className="header-link subsection-link" href="/partnership" target="_self">Partners</a><a className="header-link subsection-link" href="/p/events-hub/" target="_self">Global events</a><a className="header-link subsection-link" href="//community.monday.com" target="_self">Community</a></div>
+                        <div><a className="header-link subsection-link" href="/helpcenter/" target="_self">24/7 support</Link><a className="header-link subsection-link" href="/partnership" target="_self">Partners</Link><a className="header-link subsection-link" href="/p/events-hub/" target="_self">Global events</Link><a className="header-link subsection-link" href="//community.monday.com" target="_self">Community</Link></div>
                       </div>
                       <div className="section-wrapper">
                         <div className="section-link">Build</div>
-                        <div><a className="header-link subsection-link" href="/appdeveloper" target="_self">App development</a><a className="header-link subsection-link" href="/templates" target="_self">Template center</a></div>
+                        <div><a className="header-link subsection-link" href="/appdeveloper" target="_self">App development</Link><a className="header-link subsection-link" href="/templates" target="_self">Template center</Link></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <a href="/pricing" className="jsx-3792945056 link-mobile-component">Pricing</a><a href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" className="jsx-3792945056 link-mobile-component">Contact sales</a><a href="//auth.monday.com/login" className="jsx-3792945056 link-mobile-component">Log in</a>
+                <Link href="/pricing" className="jsx-3792945056 link-mobile-component">Pricing</Link><Link href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" className="jsx-3792945056 link-mobile-component">Contact sales</Link><Link href="//auth.monday.com/login" className="jsx-3792945056 link-mobile-component">Log in</Link>
                 <div className="jsx-1474266031 download-mobile-app-component-wrapper">
                   <div className="jsx-862816351 download-mobile-app-component">
                     <picture className="jsx-4212101279 picture-component"><img alt="Download on the App Store Badge US UK RGB blk 092917 1" className="jsx-4212101279 download-mobile-app-image" src="https://dapulse-res.cloudinary.com/image/upload/mobile_menu/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917_1.png" /></picture>
@@ -300,14 +300,14 @@ export default function Navigation() {
                   <picture className="jsx-4212101279 picture-component"><img alt="Monday" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/mobile_menu/Monday.png" /></picture>
                   <div className="jsx-1474266031 monday-link-text-wrapper">
                     <div className="jsx-3504695916 secondary-button">
-                      <a href="/" target="_self" className="jsx-3504695916 with-underline">
+                      <Link href="/" target="_self" className="jsx-3504695916 with-underline">
                         <span className="jsx-3504695916 secondary-button-text">Go to homepage</span>
                         <span className="jsx-3504695916 arrow-wrapper">
                           <svg width={10} height={14} viewBox="0 0 9 7" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd" d="M4.628.616a.5.5 0 1 0-.64.768L6.203 3.23H.5a.5.5 0 0 0 0 1h5.612L3.988 6a.5.5 0 1 0 .64.769l3.23-2.693a.5.5 0 0 0 0-.768L4.628.616z" />
                           </svg>
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
