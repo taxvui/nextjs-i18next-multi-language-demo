@@ -4,9 +4,9 @@
     "Home description": "Home description"
   },
   "error": {
-    "Error title": "Xin loi,",
-    "Description": "Noi dung ban tim kiem khong co...",
-    "Home": "Quy ve Trang chu"
+    "Error title": "Xin lỗi,",
+    "Description": "Nội dung bạn cần tìm không có...",
+    "Home": "Quay về Trang chủ"
   },
   "about": {
     "About title": "About title",

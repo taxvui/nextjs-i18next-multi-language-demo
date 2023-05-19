@@ -35,7 +35,7 @@ export default function Navigation() {
                     <div className="jsx-2008225623 left-side-header-links">
                       <div role="list" className="jsx-2008225623 absolute-main-links">
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-expanded="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Products</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -44,7 +44,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-expanded="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Teams</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -53,7 +53,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-expanded="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Platform</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -62,7 +62,7 @@ export default function Navigation() {
                         </div>
                         <div />
                         <div className="link-item-with-menu-component-wrapper" role="listitem">
-                          <div role="link" tabIndex={0} aria-haspopup="true" aria-expanded="false" className="jsx-4115554422 link-item-with-menu-component">
+                          <div role="link" tabIndex={0} aria-haspopup="true" aria-haspopup="false" className="jsx-4115554422 link-item-with-menu-component">
                             <span className="jsx-4115554422 link-item-with-menu-title">Resources</span>
                             <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-item-with-menu-icon">
                               <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -75,7 +75,7 @@ export default function Navigation() {
                     <div className="jsx-2008225623 right-side-header-links">
                       <div className="jsx-2008225623 link-item-component-wrapper"><Link href="/pricing" tabIndex={0} className="jsx-2138693134 link-item-component">Pricing</Link></div>
                       <div className="link-item-component-wrapper" role="listitem"><Link href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" tabIndex={0} className="jsx-2138693134 link-item-component">Contact sales</Link></div>
-                      <div className="jsx-2008225623 link-item-component-wrapper"><Link href="//auth.monday.com/login" tabIndex={0} className="jsx-2138693134 link-item-component">Log in</Link></div>
+                      <div className="jsx-2008225623 link-item-component-wrapper"><Link href="https://auth.worksuite.one/login" tabIndex={0} className="jsx-2138693134 link-item-component">Log in</Link></div>
                     </div>
                     <div className="jsx-2008225623 header-button-wrapper">
                       <div className="jsx-2396283946 button">
@@ -83,7 +83,7 @@ export default function Navigation() {
                           <div className="jsx-875249827 error-handling-component">
                             <div className="jsx-1473421095 shake stop">
                               <div className="jsx-1336934735 signup-form-core-component-wrapper jsx-2396283946 ">
-                                <form action="//auth.monday.com/users/sign_up_new?source=web_main&origin=hp_fullbg_page_header" data-origin="hp_fullbg_page_header" method="POST" noValidate className="jsx-1336934735 signup-form">
+                                <form action="https://auth.worksuite.one/users/sign_up_new?source=web_main&origin=hp_fullbg_page_header" data-origin="hp_fullbg_page_header" method="POST" noValidate className="jsx-1336934735 signup-form">
                                   <div className="jsx-1336934735 signup-button-wrapper button-with-arrow">
                                     <button className="ladda-button signup-button workos-iris xs disable-animation has-arrow" data-style="zoom-in" data-size="xl" type="button" data-button-color="workos-iris">
                                       <span className="ladda-label">
@@ -121,7 +121,7 @@ export default function Navigation() {
                   </div>
                   <div className="jsx-2770025641 mobile-menu-right-section">
                     <div aria-label="Main menu" role="navigation" className="jsx-2770025641 mobile-header-content">
-                      <div tabIndex={0} aria-label="Open Menu" aria-haspopup="menu" aria-expanded="false" role="button" className="jsx-2683879663 hamburger-menu   "><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /></div>
+                      <div tabIndex={0} aria-label="Open Menu" aria-haspopup="menu" aria-haspopup="false" role="button" className="jsx-2683879663 hamburger-menu   "><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /><span className="jsx-2683879663 hamburger-menu-line" /></div>
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Navigation() {
             <div className="jsx-2770025641 header-menu-component-wrapper">
               <div className="jsx-1474266031 header-menu-mobile-component">
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Products" role="button" aria-haspopup="menu" aria-expanded="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Products" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Products</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -227,7 +227,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Use cases" role="button" aria-haspopup="menu" aria-expanded="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Use cases" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Use cases</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -251,7 +251,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Features" role="button" aria-haspopup="menu" aria-expanded="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Features" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Features</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -267,7 +267,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-393647336 link-with-menu-mobile-component">
-                  <div tabIndex={0} aria-label="Resources" role="button" aria-haspopup="menu" aria-expanded="false" className="jsx-393647336 link-with-menu-title-wrapper">
+                  <div tabIndex={0} aria-label="Resources" role="button" aria-haspopup="menu" aria-haspopup="false" className="jsx-393647336 link-with-menu-title-wrapper">
                     <span className="jsx-393647336 link-with-menu-title-text">Resources</span>
                     <svg width={256} height={256} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" className="link-with-menu-title-icon">
                       <path d="M0 66.73c0 2.66.981 5.33 2.955 7.41l117.332 123.323a10.64 10.64 0 0 0 7.712 3.314c2.912 0 5.696-1.19 7.712-3.314L253.043 74.14c4.074-4.278 3.914-11.077-.331-15.163a10.627 10.627 0 0 0-15.083.333L128 174.536 18.379 59.32c-4.075-4.279-10.827-4.429-15.083-.343A10.76 10.76 0 0 0 0 66.73z" fill="#000" fillRule="nonzero" />
@@ -290,7 +290,7 @@ export default function Navigation() {
                     </div>
                   </div>
                 </div>
-                <Link href="/pricing" className="jsx-3792945056 link-mobile-component">Pricing</Link><Link href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" className="jsx-3792945056 link-mobile-component">Contact sales</Link><Link href="//auth.monday.com/login" className="jsx-3792945056 link-mobile-component">Log in</Link>
+                <Link href="/pricing" className="jsx-3792945056 link-mobile-component">Pricing</Link><Link href="/sales/contact-us?from=header&source=Website%20-%20Contact%20Sales" className="jsx-3792945056 link-mobile-component">Contact sales</Link><Link href="https://auth.worksuite.one/login" className="jsx-3792945056 link-mobile-component">Log in</Link>
                 <div className="jsx-1474266031 download-mobile-app-component-wrapper">
                   <div className="jsx-862816351 download-mobile-app-component">
                     <picture className="jsx-4212101279 picture-component"><img alt="Download on the App Store Badge US UK RGB blk 092917 1" className="jsx-4212101279 download-mobile-app-image" src="https://dapulse-res.cloudinary.com/image/upload/mobile_menu/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917_1.png" /></picture>
