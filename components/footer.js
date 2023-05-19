@@ -144,7 +144,7 @@ export default function Navigation() {
                           </div>
                           <div className="jsx-1727271368 links">
                             <div className="jsx-1675809481 link"><Link href="/p/about/" target="_self" rel="noreferrer" className="jsx-1675809481">About us</Link></div>
-                            <div className="jsx-1675809481 link"><Link href="/careers" target="_self" rel="noreferrer" className="jsx-1675809481">Careers - We're hiring!</Link></div>
+                            <div className="jsx-1675809481 link"><Link href="/careers" target="_self" rel="noreferrer" className="jsx-1675809481">Careers - We&apos;re hiring!</Link></div>
                             <div className="jsx-1675809481 link"><Link href="//www.monday-u.com" target="_blank" rel="noreferrer" className="jsx-1675809481">monday-U</Link></div>
                             <div className="jsx-1675809481 link"><Link href="/p/news/" target="_self" rel="noreferrer" className="jsx-1675809481">Press</Link></div>
                             <div className="jsx-1675809481 link"><Link href="/why-monday/stories" target="_self" rel="noreferrer" className="jsx-1675809481">Customer stories</Link></div>
@@ -165,7 +165,7 @@ export default function Navigation() {
                             <div className="jsx-1675809481 link"><Link href="/helpcenter/" target="_blank" rel="noreferrer" className="jsx-1675809481">Help Center</Link></div>
                             <div className="jsx-1675809481 link"><Link href="//community.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">Community</Link></div>
                             <div className="jsx-1675809481 link"><Link href="//monday.com/blog" target="_blank" rel="noreferrer" className="jsx-1675809481">Blog</Link></div>
-                            <div className="jsx-1675809481 link"><Link href="/whats-new" target="_blank" rel="noreferrer" className="jsx-1675809481">What's new</Link></div>
+                            <div className="jsx-1675809481 link"><Link href="/whats-new" target="_blank" rel="noreferrer" className="jsx-1675809481">What&apos;s new</Link></div>
                             <div className="jsx-1675809481 link"><Link href="/webinars" target="_self" rel="noreferrer" className="jsx-1675809481">Webinars</Link></div>
                             <div className="jsx-1675809481 link"><Link href="https://www.startupforstartup.com/ww/" target="_blank" rel="noreferrer" className="jsx-1675809481">Startup for startup</Link></div>
                             <div className="jsx-1675809481 link"><Link href="/p/events-hub/" target="_self" rel="noreferrer" className="jsx-1675809481">Global events</Link></div>
