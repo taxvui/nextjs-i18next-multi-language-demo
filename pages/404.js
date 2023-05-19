@@ -28,7 +28,7 @@ export default function NotFoundPage() {
                   <div className="jsx-1667800273 button-wrapper center">
                     <div className="jsx-2396283946 button">
                       <div className="jsx-1970828850 regular-button lg">
-                        <a href="/" target="_self">
+                        <Link href="/" target="_self">
                           <div style={{color: '#ffffff'}} tabIndex={0} role="button" data-button-color="space-blue" className="jsx-139011206 jsx-402420666 button-component jsx-2396283946  lg space-blue with-arrow">
                           {t("error.Home")}
                             <span className="jsx-2730172878 arrow-wrapper lg">
@@ -37,7 +37,7 @@ export default function NotFoundPage() {
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
