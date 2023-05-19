@@ -7,6 +7,11 @@
     "About title": "About title",
     "About description": "About description"
   },
+  "error": {
+    "Error title": "So sorry,",
+    "Description": "we couldnot find what you were looking for...",
+    "Home": "Back to the homepage"
+  },
   "header": {
     "Home": "Home",
     "About": "About"
