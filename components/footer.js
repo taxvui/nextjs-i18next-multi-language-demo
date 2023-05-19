@@ -29,20 +29,20 @@ export default function Navigation() {
                         <div className="jsx-1727271368 footer-category-component">
                           <div className="jsx-1727271368 footer-category-image-and-title-warpper">
                             <div className="jsx-1727271368 monday-logo-wrapper">
-                              <a href="/" target="_self">
+                              <Link href="/" target="_self">
                                 <picture className="jsx-4212101279 picture-component"><img alt="monday logo" className="jsx-4212101279 footer-monday-logo-image" src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png" /></picture>
                               </a>
                             </div>
                           </div>
                           <div className="jsx-1727271368 links">
-                            <div className="jsx-1675809481 link"><a href="/nonprofits/pricing" target="_self" rel="noreferrer" className="jsx-1675809481">Pricing</a></div>
-                            <div className="jsx-1675809481 link"><a href="/help" target="_self" rel="noreferrer" className="jsx-1675809481">Contact us</a></div>
-                            <div className="jsx-1675809481 link"><a href="/templates" target="_self" rel="noreferrer" className="jsx-1675809481">Templates</a></div>
-                            <div className="jsx-1675809481 link"><a href="/smb" target="_self" rel="noreferrer" className="jsx-1675809481">SMB</a></div>
-                            <div className="jsx-1675809481 link"><a href="/enterprise" target="_self" rel="noreferrer" className="jsx-1675809481">Enterprise</a></div>
-                            <div className="jsx-1675809481 link"><a href="/nonprofits" target="_self" rel="noreferrer" className="jsx-1675809481">Nonprofits</a></div>
-                            <div className="jsx-1675809481 link"><a href="/marketplace" target="_self" rel="noreferrer" className="jsx-1675809481">Apps marketplace</a></div>
-                            <div className="jsx-1675809481 link"><a href="/helpcenter/" target="_self" rel="noreferrer" className="jsx-1675809481">24/7 support</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/nonprofits/pricing" target="_self" rel="noreferrer" className="jsx-1675809481">Pricing</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/help" target="_self" rel="noreferrer" className="jsx-1675809481">Contact us</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/templates" target="_self" rel="noreferrer" className="jsx-1675809481">Templates</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/smb" target="_self" rel="noreferrer" className="jsx-1675809481">SMB</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/enterprise" target="_self" rel="noreferrer" className="jsx-1675809481">Enterprise</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/nonprofits" target="_self" rel="noreferrer" className="jsx-1675809481">Nonprofits</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/marketplace" target="_self" rel="noreferrer" className="jsx-1675809481">Apps marketplace</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/helpcenter/" target="_self" rel="noreferrer" className="jsx-1675809481">24/7 support</a></div>
                           </div>
                         </div>
                       </div>
@@ -52,13 +52,13 @@ export default function Navigation() {
                             <h3 className="jsx-1727271368 title">Features</h3>
                           </div>
                           <div className="jsx-1727271368 links">
-                            <div className="jsx-1675809481 link"><a href="/workdocs" target="_self" rel="noreferrer" className="jsx-1675809481">Docs</a></div>
-                            <div className="jsx-1675809481 link"><a href="/integrations" target="_self" rel="noreferrer" className="jsx-1675809481">Integrations</a></div>
-                            <div className="jsx-1675809481 link"><a href="/features/automations" target="_self" rel="noreferrer" className="jsx-1675809481">Automations</a></div>
-                            <div className="jsx-1675809481 link"><a href="/features/files" target="_self" rel="noreferrer" className="jsx-1675809481">Files</a></div>
-                            <div className="jsx-1675809481 link"><a href="/features/dashboards" target="_self" rel="noreferrer" className="jsx-1675809481">Dashboards</a></div>
-                            <div className="jsx-1675809481 link"><a href="/features/kanban" target="_self" rel="noreferrer" className="jsx-1675809481">Kanban</a></div>
-                            <div className="jsx-1675809481 link"><a href="/features/gantt" target="_self" rel="noreferrer" className="jsx-1675809481">Gantt</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/workdocs" target="_self" rel="noreferrer" className="jsx-1675809481">Docs</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/integrations" target="_self" rel="noreferrer" className="jsx-1675809481">Integrations</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/features/automations" target="_self" rel="noreferrer" className="jsx-1675809481">Automations</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/features/files" target="_self" rel="noreferrer" className="jsx-1675809481">Files</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/features/dashboards" target="_self" rel="noreferrer" className="jsx-1675809481">Dashboards</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/features/kanban" target="_self" rel="noreferrer" className="jsx-1675809481">Kanban</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/features/gantt" target="_self" rel="noreferrer" className="jsx-1675809481">Gantt</a></div>
                           </div>
                         </div>
                       </div>
@@ -70,7 +70,7 @@ export default function Navigation() {
                             </div>
                             <div className="jsx-1727271368 links">
                               <div className="jsx-1675809481 link">
-                                <a href="/work-management" target="_self" rel="noreferrer" className="jsx-1675809481">
+                                <Link href="/work-management" target="_self" rel="noreferrer" className="jsx-1675809481">
                                   <span className="jsx-1675809481">
                                     <picture className="jsx-4212101279 picture-component"><img alt="Footer wm logo" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/WM_new_logo/Footer_wm_logo.png" /></picture>
                                   </span>
@@ -78,7 +78,7 @@ export default function Navigation() {
                                 </a>
                               </div>
                               <div className="jsx-1675809481 link">
-                                <a href="/crm" target="_self" rel="noreferrer" className="jsx-1675809481">
+                                <Link href="/crm" target="_self" rel="noreferrer" className="jsx-1675809481">
                                   <span className="jsx-1675809481">
                                     <picture className="jsx-4212101279 picture-component"><img alt="crm icon footer" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/crm_icon_footer.png" /></picture>
                                   </span>
@@ -86,7 +86,7 @@ export default function Navigation() {
                                 </a>
                               </div>
                               <div className="jsx-1675809481 link">
-                                <a href="/dev" target="_self" rel="noreferrer" className="jsx-1675809481">
+                                <Link href="/dev" target="_self" rel="noreferrer" className="jsx-1675809481">
                                   <span className="jsx-1675809481">
                                     <picture className="jsx-4212101279 picture-component"><img alt="monday dev product management software" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/monday_dev_product_management_software.png" /></picture>
                                   </span>
@@ -101,7 +101,7 @@ export default function Navigation() {
                             </div>
                             <div className="jsx-1727271368 links">
                               <div className="jsx-1675809481 link">
-                                <a href="//workcanvas.com" target="_blank" rel="noreferrer" className="jsx-1675809481">
+                                <Link href="//workcanvas.com" target="_blank" rel="noreferrer" className="jsx-1675809481">
                                   <span className="jsx-1675809481">
                                     <picture className="jsx-4212101279 picture-component"><img alt="canvas icon footer" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/canvas_icon_footer.png" /></picture>
                                   </span>
@@ -109,7 +109,7 @@ export default function Navigation() {
                                 </a>
                               </div>
                               <div className="jsx-1675809481 link">
-                                <a href="https://workforms.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">
+                                <Link href="https://workforms.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">
                                   <span className="jsx-1675809481">
                                     <picture className="jsx-4212101279 picture-component"><img alt="workforms icon footer" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/workforms_icon_footer.png" /></picture>
                                   </span>
@@ -126,14 +126,14 @@ export default function Navigation() {
                             <h3 className="jsx-1727271368 title">Use cases</h3>
                           </div>
                           <div className="jsx-1727271368 links">
-                            <div className="jsx-1675809481 link"><a href="/work-management/marketing" target="_self" rel="noreferrer" className="jsx-1675809481">Marketing</a></div>
-                            <div className="jsx-1675809481 link"><a href="/project-management" target="_self" rel="noreferrer" className="jsx-1675809481">Project management</a></div>
-                            <div className="jsx-1675809481 link"><a href="/crm" target="_self" rel="noreferrer" className="jsx-1675809481">Sales</a></div>
-                            <div className="jsx-1675809481 link"><a href="/dev" target="_self" rel="noreferrer" className="jsx-1675809481">Developers</a></div>
-                            <div className="jsx-1675809481 link"><a href="/use-cases/hr-management-software" target="_self" rel="noreferrer" className="jsx-1675809481">HR</a></div>
-                            <div className="jsx-1675809481 link"><a href="/use-cases/it-operations" target="_self" rel="noreferrer" className="jsx-1675809481">IT</a></div>
-                            <div className="jsx-1675809481 link"><a href="/operations" target="_self" rel="noreferrer" className="jsx-1675809481">Operations</a></div>
-                            <div className="jsx-1675809481 link"><a href="/construction" target="_self" rel="noreferrer" className="jsx-1675809481">Construction</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/work-management/marketing" target="_self" rel="noreferrer" className="jsx-1675809481">Marketing</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/project-management" target="_self" rel="noreferrer" className="jsx-1675809481">Project management</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/crm" target="_self" rel="noreferrer" className="jsx-1675809481">Sales</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/dev" target="_self" rel="noreferrer" className="jsx-1675809481">Developers</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/use-cases/hr-management-software" target="_self" rel="noreferrer" className="jsx-1675809481">HR</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/use-cases/it-operations" target="_self" rel="noreferrer" className="jsx-1675809481">IT</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/operations" target="_self" rel="noreferrer" className="jsx-1675809481">Operations</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/construction" target="_self" rel="noreferrer" className="jsx-1675809481">Construction</a></div>
                           </div>
                         </div>
                       </div>
@@ -143,16 +143,16 @@ export default function Navigation() {
                             <h3 className="jsx-1727271368 title">Company</h3>
                           </div>
                           <div className="jsx-1727271368 links">
-                            <div className="jsx-1675809481 link"><a href="/p/about/" target="_self" rel="noreferrer" className="jsx-1675809481">About us</a></div>
-                            <div className="jsx-1675809481 link"><a href="/careers" target="_self" rel="noreferrer" className="jsx-1675809481">Careers - We're hiring!</a></div>
-                            <div className="jsx-1675809481 link"><a href="//www.monday-u.com" target="_blank" rel="noreferrer" className="jsx-1675809481">monday-U</a></div>
-                            <div className="jsx-1675809481 link"><a href="/p/news/" target="_self" rel="noreferrer" className="jsx-1675809481">Press</a></div>
-                            <div className="jsx-1675809481 link"><a href="/why-monday/stories" target="_self" rel="noreferrer" className="jsx-1675809481">Customer stories</a></div>
-                            <div className="jsx-1675809481 link"><a href="/partnership" target="_self" rel="noreferrer" className="jsx-1675809481">Become a partner</a></div>
-                            <div className="jsx-1675809481 link"><a href="/p/esg/" target="_self" rel="noreferrer" className="jsx-1675809481">Sustainability &amp; ESG</a></div>
-                            <div className="jsx-1675809481 link"><a href="/affiliate-program" target="_self" rel="noreferrer" className="jsx-1675809481">Affiliates</a></div>
-                            <div className="jsx-1675809481 link"><a href="//digital-lift.org" target="_blank" rel="noreferrer" className="jsx-1675809481">Digital Lift</a></div>
-                            <div className="jsx-1675809481 link"><a href="//ir.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">Investor relations</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/p/about/" target="_self" rel="noreferrer" className="jsx-1675809481">About us</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/careers" target="_self" rel="noreferrer" className="jsx-1675809481">Careers - We're hiring!</a></div>
+                            <div className="jsx-1675809481 link"><Link href="//www.monday-u.com" target="_blank" rel="noreferrer" className="jsx-1675809481">monday-U</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/p/news/" target="_self" rel="noreferrer" className="jsx-1675809481">Press</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/why-monday/stories" target="_self" rel="noreferrer" className="jsx-1675809481">Customer stories</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/partnership" target="_self" rel="noreferrer" className="jsx-1675809481">Become a partner</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/p/esg/" target="_self" rel="noreferrer" className="jsx-1675809481">Sustainability &amp; ESG</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/affiliate-program" target="_self" rel="noreferrer" className="jsx-1675809481">Affiliates</a></div>
+                            <div className="jsx-1675809481 link"><Link href="//digital-lift.org" target="_blank" rel="noreferrer" className="jsx-1675809481">Digital Lift</a></div>
+                            <div className="jsx-1675809481 link"><Link href="//ir.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">Investor relations</a></div>
                           </div>
                         </div>
                       </div>
@@ -162,16 +162,16 @@ export default function Navigation() {
                             <h3 className="jsx-1727271368 title">Resources</h3>
                           </div>
                           <div className="jsx-1727271368 links">
-                            <div className="jsx-1675809481 link"><a href="/helpcenter/" target="_blank" rel="noreferrer" className="jsx-1675809481">Help Center</a></div>
-                            <div className="jsx-1675809481 link"><a href="//community.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">Community</a></div>
-                            <div className="jsx-1675809481 link"><a href="//monday.com/blog" target="_blank" rel="noreferrer" className="jsx-1675809481">Blog</a></div>
-                            <div className="jsx-1675809481 link"><a href="/whats-new" target="_blank" rel="noreferrer" className="jsx-1675809481">What's new</a></div>
-                            <div className="jsx-1675809481 link"><a href="/webinars" target="_self" rel="noreferrer" className="jsx-1675809481">Webinars</a></div>
-                            <div className="jsx-1675809481 link"><a href="https://www.startupforstartup.com/ww/" target="_blank" rel="noreferrer" className="jsx-1675809481">Startup for startup</a></div>
-                            <div className="jsx-1675809481 link"><a href="/p/events-hub/" target="_self" rel="noreferrer" className="jsx-1675809481">Global events</a></div>
-                            <div className="jsx-1675809481 link"><a href="/appdeveloper" target="_blank" rel="noreferrer" className="jsx-1675809481">App development</a></div>
-                            <div className="jsx-1675809481 link"><a href="/p/find-a-partner/" target="_self" rel="noreferrer" className="jsx-1675809481">Find a partner</a></div>
-                            <div className="jsx-1675809481 link"><a href="/alternative" target="_self" rel="noreferrer" className="jsx-1675809481">Compare</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/helpcenter/" target="_blank" rel="noreferrer" className="jsx-1675809481">Help Center</a></div>
+                            <div className="jsx-1675809481 link"><Link href="//community.monday.com" target="_blank" rel="noreferrer" className="jsx-1675809481">Community</a></div>
+                            <div className="jsx-1675809481 link"><Link href="//monday.com/blog" target="_blank" rel="noreferrer" className="jsx-1675809481">Blog</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/whats-new" target="_blank" rel="noreferrer" className="jsx-1675809481">What's new</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/webinars" target="_self" rel="noreferrer" className="jsx-1675809481">Webinars</a></div>
+                            <div className="jsx-1675809481 link"><Link href="https://www.startupforstartup.com/ww/" target="_blank" rel="noreferrer" className="jsx-1675809481">Startup for startup</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/p/events-hub/" target="_self" rel="noreferrer" className="jsx-1675809481">Global events</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/appdeveloper" target="_blank" rel="noreferrer" className="jsx-1675809481">App development</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/p/find-a-partner/" target="_self" rel="noreferrer" className="jsx-1675809481">Find a partner</a></div>
+                            <div className="jsx-1675809481 link"><Link href="/alternative" target="_self" rel="noreferrer" className="jsx-1675809481">Compare</a></div>
                           </div>
                         </div>
                       </div>
@@ -198,22 +198,22 @@ export default function Navigation() {
                         <div className="jsx-3477892871 security-logos-wrapper">
                           <div className="jsx-3089181165 security-logos-component">
                             <div className="jsx-3089181165 gdpr-logo-img-container">
-                              <a href="/terms/gdpr" target="_self">
+                              <Link href="/terms/gdpr" target="_self">
                                 <picture className="jsx-4212101279 picture-component"><img alt="gdpr" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/footer/gdpr-logo.png" /></picture>
                               </a>
                             </div>
                             <div className="jsx-3089181165 iso-logo-img-container">
-                              <a href="/trustcenter/iso" target="_self">
+                              <Link href="/trustcenter/iso" target="_self">
                                 <picture className="jsx-4212101279 picture-component"><img alt="iso" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/footer/iso-logo1.png" /></picture>
                               </a>
                             </div>
                             <div className="jsx-3089181165 soc-logo-img-container">
-                              <a href="/terms/soc2" target="_self">
+                              <Link href="/terms/soc2" target="_self">
                                 <picture className="jsx-4212101279 picture-component"><img alt="soc" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/footer/soc-logo.png" /></picture>
                               </a>
                             </div>
                             <div className="jsx-3089181165 hipaa-logo-img-container">
-                              <a href="https://support.monday.com/hc/en-us/articles/360006506699" target="_self">
+                              <Link href="https://support.monday.com/hc/en-us/articles/360006506699" target="_self">
                                 <picture className="jsx-4212101279 picture-component"><img alt="hipaa" className="jsx-4212101279 " src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/footer/hipaa-logo.png" /></picture>
                               </a>
                             </div>
@@ -226,7 +226,7 @@ export default function Navigation() {
                             <div className="jsx-4139997252 icons-wrapper">
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.reddit.com/r/mondaydotcom" title="Reddit" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.reddit.com/r/mondaydotcom" title="Reddit" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <path d="M9.593 12c-.602 0-1.093.491-1.093 1.093s.491 1.093 1.093 1.093 1.093-.491 1.093-1.093S10.195 12 9.593 12zM12.012 16.777c.418 0 1.843-.049 2.592-.798.11-.11.11-.282.024-.405a.289.289 0 0 0-.405 0c-.479.466-1.474.638-2.198.638-.725 0-1.732-.172-2.198-.638a.289.289 0 0 0-.406 0 .289.289 0 0 0 0 .405c.737.737 2.174.798 2.591.798zM13.314 13.093c0 .602.492 1.093 1.093 1.093.602 0 1.093-.491 1.093-1.093S15.01 12 14.407 12c-.601 0-1.093.491-1.093 1.093z" fill="#535768" />
@@ -238,7 +238,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.linkedin.com/company/2525169" title="LinkedIn" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.linkedin.com/company/2525169" title="LinkedIn" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M6.45 3.773C6.422 2.483 5.495 1.5 3.99 1.5c-1.506 0-2.49.983-2.49 2.273 0 1.263.955 2.274 2.432 2.274h.028c1.535 0 2.49-1.011 2.49-2.274zm-.29 4.07h-4.4V21h4.4V7.842zm10.803-.309c2.895 0 5.066 1.88 5.066 5.922V21h-4.4v-7.039c0-1.768-.637-2.975-2.23-2.975-1.215 0-1.94.814-2.258 1.6-.116.281-.145.673-.145 1.066V21h-4.4s.058-11.922 0-13.157h4.4v1.864c.585-.896 1.63-2.173 3.967-2.173z" fill="#535768" />
@@ -249,7 +249,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.facebook.com/mondaydotcom" title="Facebook" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.facebook.com/mondaydotcom" title="Facebook" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <path d="M12 1.5c5.8 0 10.5 4.729 10.5 10.564 0 5.274-3.84 9.644-8.86 10.436v-7.382h2.447l.466-3.054H13.64v-1.98c0-.836.406-1.651 1.71-1.651h1.325v-2.6s-1.202-.206-2.35-.206c-2.4 0-3.967 1.462-3.967 4.11v2.327H7.693v3.054h2.666V22.5C5.34 21.708 1.5 17.338 1.5 12.064 1.5 6.229 6.2 1.5 12 1.5z" fill="#535768" />
@@ -260,7 +260,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.youtube.com/channel/UCA9UvBiKHly15rN8u_Km3BQ" title="Youtube" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.youtube.com/channel/UCA9UvBiKHly15rN8u_Km3BQ" title="Youtube" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <g clipPath="url(#clip0_1251_525)">
@@ -278,7 +278,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://twitter.com/mondaydotcom" title="twitter" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://twitter.com/mondaydotcom" title="twitter" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <path d="M12.191 7.817l.048.783-.796-.096C8.548 8.137 6.018 6.89 3.87 4.796L2.82 3.757l-.27.767c-.573 1.71-.207 3.517.986 4.731.637.672.494.768-.604.368-.382-.128-.716-.224-.748-.176-.111.112.27 1.567.573 2.142.413.8 1.257 1.582 2.18 2.046l.779.367-.923.016c-.89 0-.923.016-.827.352.318 1.04 1.575 2.142 2.975 2.621l.986.336-.859.512a8.99 8.99 0 0 1-4.263 1.182c-.716.016-1.305.08-1.305.128 0 .16 1.94 1.055 3.07 1.407 3.39 1.039 7.414.591 10.437-1.183 2.148-1.263 4.295-3.772 5.298-6.202.54-1.294 1.082-3.66 1.082-4.795 0-.735.047-.83.938-1.71.525-.511 1.018-1.07 1.114-1.23.159-.304.143-.304-.668-.033-1.353.48-1.544.416-.875-.303.493-.512 1.081-1.439 1.081-1.71 0-.049-.238.031-.509.175-.286.16-.922.4-1.4.544l-.859.271-.78-.527c-.429-.288-1.034-.607-1.352-.703-.811-.224-2.052-.192-2.784.064-1.988.719-3.245 2.573-3.102 4.603z" fill="#535768" />
@@ -289,7 +289,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.instagram.com/mondaydotcom" title="Instagram" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.instagram.com/mondaydotcom" title="Instagram" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <g clipPath="url(#clip0_1251_527)">
@@ -305,7 +305,7 @@ export default function Navigation() {
                               </div>
                               <div className="jsx-4139997252 single-social-icon-wrapper">
                                 <div className="jsx-3692625068 social-media-icon">
-                                  <a target="_blank" href="https://www.tiktok.com/@mondaydotcom" title="TikTok" className="jsx-3692625068">
+                                  <Link target="_blank" href="https://www.tiktok.com/@mondaydotcom" title="TikTok" className="jsx-3692625068">
                                     <div className="jsx-3692625068 regular-icon-container">
                                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                         <path d="M21.211 6.393c-1.3-.04-2.48-.663-3.369-1.496a4.867 4.867 0 0 1-1.51-3.595H12.71v13.953c0 2.279-1.366 3.622-3.044 3.622a3.046 3.046 0 1 1 .984-5.917V9.276a4.466 4.466 0 0 0-.984-.104 6.665 6.665 0 1 0 6.662 6.664v-7.51c1.404.971 3.081 1.43 4.871 1.462l.012-3.395z" fill="#535768" />
@@ -319,10 +319,10 @@ export default function Navigation() {
                         </div>
                         <div className="jsx-3477892871 statement-and-links-wrapper">
                           <div className="jsx-3477892871 links-container">
-                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><a href="/trustcenter" className="jsx-1981315406 footer-bottom-bar-link-component">Security</a></div>
-                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><a href="/l/" className="jsx-1981315406 footer-bottom-bar-link-component">Terms and privacy</a></div>
-                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><a href="/terms/privacy" className="jsx-1981315406 footer-bottom-bar-link-component">Privacy policy</a></div>
-                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><a href="https://status.monday.com" className="jsx-1981315406 footer-bottom-bar-link-component">Status</a></div>
+                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><Link href="/trustcenter" className="jsx-1981315406 footer-bottom-bar-link-component">Security</a></div>
+                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><Link href="/l/" className="jsx-1981315406 footer-bottom-bar-link-component">Terms and privacy</a></div>
+                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><Link href="/terms/privacy" className="jsx-1981315406 footer-bottom-bar-link-component">Privacy policy</a></div>
+                            <div className="jsx-3477892871 short-footer-link-component-wrapper"><Link href="https://status.monday.com" className="jsx-1981315406 footer-bottom-bar-link-component">Status</a></div>
                           </div>
                           <div className="jsx-164348419 all-rights-reserved-component">
                             <div className="jsx-164348419 details">
@@ -334,7 +334,7 @@ export default function Navigation() {
                     </div>
                     <div className="jsx-3477892871 footer-bottom-bar-right-side">
                       <div className="jsx-3477892871 app-store-icons">
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.monday.monday" title="Download the monday android App from Google Play" className="jsx-3477892871 app-icon">
+                        <Link target="_blank" href="https://play.google.com/store/apps/details?id=com.monday.monday" title="Download the monday android App from Google Play" className="jsx-3477892871 app-icon">
                           <svg width={135} height={40} viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M130 40H5c-2.8 0-5-2.2-5-5V5c0-2.8 2.2-5 5-5h125c2.8 0 5 2.2 5 5v30c0 2.7-2.2 5-5 5z" fill="#000" />
                             <path d="M130 .8c2.3 0 4.2 1.9 4.2 4.2v30c0 2.3-1.9 4.2-4.2 4.2H5C2.7 39.2.8 37.3.8 35V5C.8 2.7 2.7.8 5 .8h125zm0-.8H5C2.2 0 0 2.2 0 5v30c0 2.8 2.2 5 5 5h125c2.8 0 5-2.2 5-5V5c0-2.7-2.2-5-5-5z" fill="#A6A6A6" />
@@ -376,7 +376,7 @@ export default function Navigation() {
                             </defs>
                           </svg>
                         </a>
-                        <a target="_blank" href="https://itunes.apple.com/app/id1290128888" title="Download the monday iOS App from the App Store" className="jsx-3477892871 app-icon">
+                        <Link target="_blank" href="https://itunes.apple.com/app/id1290128888" title="Download the monday iOS App from the App Store" className="jsx-3477892871 app-icon">
                           <svg width={120} height={40} viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M110.135 0H9.535c-.367 0-.73 0-1.095.002-.306.002-.61.008-.919.013C6.85.023 6.18.082 5.517.19a6.665 6.665 0 0 0-1.9.627A6.438 6.438 0 0 0 .193 5.521a12.993 12.993 0 0 0-.179 2.002c-.01.307-.01.615-.015.921V31.56c.005.31.006.61.015.921.008.671.068 1.34.18 2.002.11.663.32 1.306.624 1.905.303.598.701 1.143 1.179 1.614.473.477 1.019.875 1.618 1.179.599.304 1.24.517 1.901.63.663.11 1.333.168 2.004.177.31.007.613.011.919.011.366.002.728.002 1.095.002h100.6c.359 0 .724 0 1.084-.002.304 0 .617-.004.922-.01.67-.01 1.338-.068 2-.178a6.808 6.808 0 0 0 1.908-.63A6.296 6.296 0 0 0 117.666 38a6.405 6.405 0 0 0 1.182-1.614c.302-.6.51-1.242.619-1.905.111-.661.173-1.33.185-2.002.004-.31.004-.61.004-.921.008-.364.008-.725.008-1.094V9.536c0-.366 0-.73-.008-1.092 0-.306 0-.614-.004-.92a13.57 13.57 0 0 0-.185-2.003 6.648 6.648 0 0 0-.619-1.903 6.469 6.469 0 0 0-2.799-2.8 6.77 6.77 0 0 0-1.908-.627c-.661-.11-1.33-.169-2-.176-.305-.005-.618-.011-.922-.013-.36-.002-.725-.002-1.084-.002z" fill="#A6A6A6" />
                             <path d="M8.445 39.125c-.305 0-.602-.004-.904-.01a12.696 12.696 0 0 1-1.87-.164 5.884 5.884 0 0 1-1.656-.548 5.406 5.406 0 0 1-1.397-1.016 5.321 5.321 0 0 1-1.02-1.397 5.722 5.722 0 0 1-.544-1.657 12.414 12.414 0 0 1-.166-1.875c-.007-.21-.015-.913-.015-.913v-23.1s.009-.692.015-.895a12.37 12.37 0 0 1 .165-1.872 5.756 5.756 0 0 1 .544-1.662c.26-.518.603-.99 1.015-1.398A5.565 5.565 0 0 1 5.667 1.05C6.287.95 6.915.895 7.543.887l.902-.012h102.769l.913.013a12.37 12.37 0 0 1 1.858.162 5.933 5.933 0 0 1 1.671.548 5.589 5.589 0 0 1 2.415 2.42 5.74 5.74 0 0 1 .535 1.649c.104.624.162 1.255.174 1.887.003.283.003.588.003.89.008.375.008.732.008 1.092v20.929c0 .363 0 .718-.008 1.075 0 .325 0 .623-.004.93-.011.62-.069 1.24-.171 1.853a5.716 5.716 0 0 1-.54 1.67 5.47 5.47 0 0 1-1.015 1.386 5.414 5.414 0 0 1-1.4 1.022 5.855 5.855 0 0 1-1.668.55c-.618.101-1.243.156-1.869.163-.293.007-.599.011-.897.011l-1.084.002-101.69-.002z" fill="#000" />
@@ -393,7 +393,7 @@ export default function Navigation() {
                               <circle cx="10.5" cy="5.5" r="1.5" stroke="#000" />
                             </svg>
                           </div>
-                          <div className="jsx-956190298 accessibility-link-wrapper"><a href="/accessibility-statement" className="jsx-956190298 accessibility-link">Accessibility statement</a></div>
+                          <div className="jsx-956190298 accessibility-link-wrapper"><Link href="/accessibility-statement" className="jsx-956190298 accessibility-link">Accessibility statement</a></div>
                         </div>
                       </div>
                     </div>
@@ -405,16 +405,16 @@ export default function Navigation() {
               <footer className="jsx-3368285728 short-footer-component">
                 <div className="jsx-3368285728 short-footer-header">
                   <div className="jsx-3368285728 short-footer-links">
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/p/about/" className="jsx-761555726 short-footer-link-component">About us</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/partnership" className="jsx-761555726 short-footer-link-component">Become a partner</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/careers" className="jsx-761555726 short-footer-link-component">Careers</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="//monday.com/blog" className="jsx-761555726 short-footer-link-component">Blog</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/nonprofits/pricing" className="jsx-761555726 short-footer-link-component">Pricing</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/sales/contact-us?from=footer" className="jsx-761555726 short-footer-link-component">Contact sales</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/l/" className="jsx-761555726 short-footer-link-component">Terms and privacy</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/product" className="jsx-761555726 short-footer-link-component">Product overview</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="//ir.monday.com" className="jsx-761555726 short-footer-link-component">Investor relations</a></div>
-                    <div className="short-footer-link-component-wrapper link-wrapper"><a href="/help" className="jsx-761555726 short-footer-link-component">Contact us</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/p/about/" className="jsx-761555726 short-footer-link-component">About us</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/partnership" className="jsx-761555726 short-footer-link-component">Become a partner</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/careers" className="jsx-761555726 short-footer-link-component">Careers</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="//monday.com/blog" className="jsx-761555726 short-footer-link-component">Blog</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/nonprofits/pricing" className="jsx-761555726 short-footer-link-component">Pricing</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/sales/contact-us?from=footer" className="jsx-761555726 short-footer-link-component">Contact sales</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/l/" className="jsx-761555726 short-footer-link-component">Terms and privacy</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/product" className="jsx-761555726 short-footer-link-component">Product overview</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="//ir.monday.com" className="jsx-761555726 short-footer-link-component">Investor relations</a></div>
+                    <div className="short-footer-link-component-wrapper link-wrapper"><Link href="/help" className="jsx-761555726 short-footer-link-component">Contact us</a></div>
                     <div className="jsx-3368285728 accessibility-statement-link-wrapper link-wrapper">
                       <div className="jsx-956190298 accessibilty-statement-link-component">
                         <div className="jsx-956190298 accessibility-icon-wrapper">
@@ -424,7 +424,7 @@ export default function Navigation() {
                             <circle cx="10.5" cy="5.5" r="1.5" stroke="#000" />
                           </svg>
                         </div>
-                        <div className="jsx-956190298 accessibility-link-wrapper"><a href="/accessibility-statement" className="jsx-956190298 accessibility-link">Accessibility statement</a></div>
+                        <div className="jsx-956190298 accessibility-link-wrapper"><Link href="/accessibility-statement" className="jsx-956190298 accessibility-link">Accessibility statement</a></div>
                       </div>
                     </div>
                     <div className="jsx-3368285728 language-picker-wrapper-component link-wrapper">
@@ -442,7 +442,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="jsx-3368285728 monday-logo-wrapper">
-                  <a href="/" target="_self">
+                  <Link href="/" target="_self">
                     <picture className="jsx-4212101279 picture-component"><img alt="monday logo" className="jsx-4212101279 footer-monday-logo-image" src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png" /></picture>
                   </a>
                 </div>
@@ -456,7 +456,7 @@ export default function Navigation() {
                     <div className="jsx-4139997252 icons-wrapper">
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.reddit.com/r/mondaydotcom" title="Reddit" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.reddit.com/r/mondaydotcom" title="Reddit" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <path d="M9.593 12c-.602 0-1.093.491-1.093 1.093s.491 1.093 1.093 1.093 1.093-.491 1.093-1.093S10.195 12 9.593 12zM12.012 16.777c.418 0 1.843-.049 2.592-.798.11-.11.11-.282.024-.405a.289.289 0 0 0-.405 0c-.479.466-1.474.638-2.198.638-.725 0-1.732-.172-2.198-.638a.289.289 0 0 0-.406 0 .289.289 0 0 0 0 .405c.737.737 2.174.798 2.591.798zM13.314 13.093c0 .602.492 1.093 1.093 1.093.602 0 1.093-.491 1.093-1.093S15.01 12 14.407 12c-.601 0-1.093.491-1.093 1.093z" fill="#535768" />
@@ -468,7 +468,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.linkedin.com/company/2525169" title="LinkedIn" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.linkedin.com/company/2525169" title="LinkedIn" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M6.45 3.773C6.422 2.483 5.495 1.5 3.99 1.5c-1.506 0-2.49.983-2.49 2.273 0 1.263.955 2.274 2.432 2.274h.028c1.535 0 2.49-1.011 2.49-2.274zm-.29 4.07h-4.4V21h4.4V7.842zm10.803-.309c2.895 0 5.066 1.88 5.066 5.922V21h-4.4v-7.039c0-1.768-.637-2.975-2.23-2.975-1.215 0-1.94.814-2.258 1.6-.116.281-.145.673-.145 1.066V21h-4.4s.058-11.922 0-13.157h4.4v1.864c.585-.896 1.63-2.173 3.967-2.173z" fill="#535768" />
@@ -479,7 +479,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.facebook.com/mondaydotcom" title="Facebook" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.facebook.com/mondaydotcom" title="Facebook" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <path d="M12 1.5c5.8 0 10.5 4.729 10.5 10.564 0 5.274-3.84 9.644-8.86 10.436v-7.382h2.447l.466-3.054H13.64v-1.98c0-.836.406-1.651 1.71-1.651h1.325v-2.6s-1.202-.206-2.35-.206c-2.4 0-3.967 1.462-3.967 4.11v2.327H7.693v3.054h2.666V22.5C5.34 21.708 1.5 17.338 1.5 12.064 1.5 6.229 6.2 1.5 12 1.5z" fill="#535768" />
@@ -490,7 +490,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.youtube.com/channel/UCA9UvBiKHly15rN8u_Km3BQ" title="Youtube" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.youtube.com/channel/UCA9UvBiKHly15rN8u_Km3BQ" title="Youtube" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <g clipPath="url(#clip0_1251_525)">
@@ -508,7 +508,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://twitter.com/mondaydotcom" title="twitter" className="jsx-3692625068">
+                          <Link target="_blank" href="https://twitter.com/mondaydotcom" title="twitter" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <path d="M12.191 7.817l.048.783-.796-.096C8.548 8.137 6.018 6.89 3.87 4.796L2.82 3.757l-.27.767c-.573 1.71-.207 3.517.986 4.731.637.672.494.768-.604.368-.382-.128-.716-.224-.748-.176-.111.112.27 1.567.573 2.142.413.8 1.257 1.582 2.18 2.046l.779.367-.923.016c-.89 0-.923.016-.827.352.318 1.04 1.575 2.142 2.975 2.621l.986.336-.859.512a8.99 8.99 0 0 1-4.263 1.182c-.716.016-1.305.08-1.305.128 0 .16 1.94 1.055 3.07 1.407 3.39 1.039 7.414.591 10.437-1.183 2.148-1.263 4.295-3.772 5.298-6.202.54-1.294 1.082-3.66 1.082-4.795 0-.735.047-.83.938-1.71.525-.511 1.018-1.07 1.114-1.23.159-.304.143-.304-.668-.033-1.353.48-1.544.416-.875-.303.493-.512 1.081-1.439 1.081-1.71 0-.049-.238.031-.509.175-.286.16-.922.4-1.4.544l-.859.271-.78-.527c-.429-.288-1.034-.607-1.352-.703-.811-.224-2.052-.192-2.784.064-1.988.719-3.245 2.573-3.102 4.603z" fill="#535768" />
@@ -519,7 +519,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.instagram.com/mondaydotcom" title="Instagram" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.instagram.com/mondaydotcom" title="Instagram" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <g clipPath="url(#clip0_1251_527)">
@@ -535,7 +535,7 @@ export default function Navigation() {
                       </div>
                       <div className="jsx-4139997252 single-social-icon-wrapper">
                         <div className="jsx-3692625068 social-media-icon">
-                          <a target="_blank" href="https://www.tiktok.com/@mondaydotcom" title="TikTok" className="jsx-3692625068">
+                          <Link target="_blank" href="https://www.tiktok.com/@mondaydotcom" title="TikTok" className="jsx-3692625068">
                             <div className="jsx-3692625068 regular-icon-container">
                               <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="jsx-3692625068">
                                 <path d="M21.211 6.393c-1.3-.04-2.48-.663-3.369-1.496a4.867 4.867 0 0 1-1.51-3.595H12.71v13.953c0 2.279-1.366 3.622-3.044 3.622a3.046 3.046 0 1 1 .984-5.917V9.276a4.466 4.466 0 0 0-.984-.104 6.665 6.665 0 1 0 6.662 6.664v-7.51c1.404.971 3.081 1.43 4.871 1.462l.012-3.395z" fill="#535768" />
